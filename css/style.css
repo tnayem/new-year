@@ -1,7 +1,12 @@
 body {
     font-family: 'Merriweather', serif;
 }
-
+.text-red{
+    color: #F00;
+}
+.bg-red{
+    background: #F00;
+}
 .container {
     width: 80%;
     margin: auto;
@@ -93,3 +98,21 @@ body {
     padding: 30px 0;
 }
 /* Midnight section end */
+/* sedule section start */
+.shedule{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-top: 50px;
+}
+.shedule-text{
+    text-align: center;
+    padding: 130px 0;
+}
+.shedule-text button{
+    border:#F00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* sedule section end */
