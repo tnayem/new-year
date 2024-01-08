@@ -113,6 +113,9 @@ body {
 .midnight-img {
     padding: 30px 0;
 }
+.midnight-img img{
+    margin-right: 50px;
+}
 
 /* Midnight section end */
 /* sedule section start */
