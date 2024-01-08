@@ -311,10 +311,11 @@ body {
 
 /* Portfolio section end */
 /* subscribe section start */
-.my-subscribe{
+.my-subscribe {
     background: rgba(255, 0, 0, 0.05);
     padding: 90px 0;
 }
+
 .subscribe-img {
     width: 100px;
     height: 100px;
@@ -331,7 +332,8 @@ body {
     font-weight: 900;
     text-align: center;
 }
-.subscribe p{
+
+.subscribe p {
     font-size: 18px;
     font-weight: 400;
     color: rgba(7, 2, 17, 0.60);
@@ -339,19 +341,69 @@ body {
     margin: 0;
     line-height: 32px;
 }
-.input-section{
+
+.input-section {
     width: 33%;
     margin: auto;
     padding-top: 30px;
-    
+
 }
-.user-input{
+
+.user-input {
     padding: 10px 40px;
 }
-.submit-btn{
-    border:2px solid red;
+
+.submit-btn {
+    border: 2px solid red;
     padding: 10px 20px;
     margin-left: -10px;
     border-radius: 0px 20px 20px 0px;
 }
+
 /* subscribe section end */
+/* footer section start */
+footer {
+    background: #070211;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(36, 36, 36);
+}
+
+.footer-middle {
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+}
+
+.footer-middle i {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(36, 36, 36);
+}
+
+.footer-bottom button {
+    padding: 0 20px;
+    background: #070211;
+    color: #ffffff;
+    border: none;
+}
+
+/* footer section end */
